@@ -1,0 +1,31 @@
+@media screen and (max-width: 600px) {
+    .flex-container {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+}
+}
+.logo {
+    font-family: cursive;
+}
+
+.title-1 {
+    font-family:'Atma';
+    text-align: center;
+}
+.caption {
+    color:lemonchiffon;
+    text-align:center;
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noline {
+   text-decoration: none;
+}

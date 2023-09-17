@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
+
+</head>
+<>
+    <div class="container-fluid sticky-top flex-container">
+        <header class="row">
+            <div class="col-md-7 bg-dark text-light logo fs-1 fw-bold ">Coffee & Chill</div>
+            <div class="col-md-1 bg-dark text-light text-center align-middle p-3 fs-4 noline"><a href="#home">Home</a></div>
+            <div class="col-md-1 bg-dark text-light text-center align-middle p-3 fs-4 noline"><a href="#menu">Menu</a></div>
+            <div class="col-md-1 bg-dark text-light text-center align-middle p-3 fs-4 noline"><a href="#contact">Contact</a></div>
+            <div class="col-md-2 bg-dark text-light text-center align-middle p-3 fs-4 noline"><a href="#about">About Us</a></div>
+            <div class="col-md-12 text-light fs-6 bg-dark "> Coffee Shop</div>
+        </header>
+    </div>
+    <div class="container-fluid bg-dark" id="home">
+        <div class="col-md-12 fw-bold display-2 title-1 text-light ">A Rare Experience in Taste</div>
+        <div class="caption">We Provide a Variety of Uniques and Best Coffees</div> 
+    </div>
+   
+   
+   
+<!--Carousel-->
+<div class="container-fluid bg-dark ">
+    <div class="row justify-content-center px-0 ">
+        <div class="col-md-8">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://www.trimcastlehotel.com/wp-content/uploads/2023/09/Barista-Square-1024x576.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://www.bagelme.com/wp-content/uploads/2023/01/bagel-me-ah-oc-lh-menu-4f-1024x576.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://brewtopia-bd.com/wp-content/uploads/2023/05/Brewtopia-Photo-8-1024x576.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+   
+</div>
+    
+    
+
+
+
+<!--The Menu-->
+<div class="container-fluid bg-dark text-light text-center align-middle p-5" id="menu">
+        <h3 class="text-light">The Menu</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn.shopify.com/s/files/1/2170/2721/files/MainPicture_480x480.jpg?v=1628935557">
+                    <div class="card-body">
+                        <div class="card-title fw-bold">Classical Coffee</div>
+                        <div class="card-text">From Ristretto to Latte Macchiato</div>
+                        <hr>
+                        <button class="btn btn-danger text-white">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn.shopify.com/s/files/1/2170/2721/files/Cold_Brew_f296ebe0-c130-4523-b63e-ac8172d41685_480x480.jpg?v=1628937864">
+                    <div class="card-body">
+                        <div class="card-title fw-bold">Cold Brew</div>
+                        <div class="card-text">From Ristretto to Latte Macchiato</div>
+                        <hr>
+                        <button class="btn btn-danger text-white">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn.shopify.com/s/files/1/2170/2721/files/MainPicture_480x480.jpg?v=1628935557">
+                    <div class="card-body">
+                        <div class="card-title fw-bold">Latte Art</div>
+                        <div class="card-text">One of the barrista's most impressive skills is the ability to create latter art</div>
+                        <hr>
+                        <button class="btn btn-danger text-white">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>    
+
+<!--About Us-->
+<div class="bg-dark text-center align-middle p-5 text-light" id="about">
+    <h3>About Us</h3>
+    <p>Coffe & Chill are genuinely interesting in quality and flavor, as well as the main coffees developed and created in the United States. Perfect climatic conditions – temperature, stickiness, elevation – and rich volcanic soil empowers Hawaiian ranchers to deliver the world’s best coffees, among them the all-around prestigious Kona coffee.
+<br><br>
+    <p>Our main goal since we began has remained basic: acquaint our clients with the domains we specifically purchase our extraordinary-tasting coffee from, broil the beans with consideration, and make astounding coffee increasingly available through our bistros and our site. The coffee we cook is the coffee we like to drink, and we trust you like it as well.
+
+        At Coffe & Chill  Roasters, we pursue a straightforward arrangement of convictions.</p>
+
+    </div>
+
+<!--Contacts-->
+<footer class="container-fluid bg-dark p-5 text-light" id="contact">
+    <h3 class="text-light text-center">Contact Us</h3>
+    <Form>
+        <label for="fname">First Name:</label>
+        <input id="fname" type="text" placeholder="Stephanie" required>
+        <label for="lname">Last Name:</label>
+        <input id="lname" type="text" placeholder="Silao" required>
+        <br><br>
+        <label for="email">Email Address:</label>
+        <input id="email" type="email" placeholder="ex.unknown@gmail.com" required>
+        <label for="phone">Phone number:</label>
+        <input id="phone" type="number"  required>
+        <br><br>
+        <p>Message</p>
+        <textarea name="message" id="message" cols="50" rows="5"></textarea><br><br>
+        <button class="bg-danger text-light">Send message</button>
+    </Form>
+    
+    <div class="align-middle text-center">
+        <p>Follow us on our Social Media</p>
+        <a  href="#">Facebook</a> <br>
+        <a  href="#">Instagram</a><br>
+        <a  href="#">Twitter</a>  <br><br>
+        <p>Telephone <span><a href="#">+639762090807</a></span></p>
+        <p>Email us: <span><a href="#">coffe@gmail.com</a></span></p>
+        
+    </div>
+    
+
+
+
+</footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
